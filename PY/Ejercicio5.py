@@ -24,8 +24,8 @@ while contador_de_nota <= total_de_notas:
         suma_de_notas_aprobadas += nota_actual
 
 
-        suma_de_notas_total += nota_actual
-        contador_de_nota += 1
+    suma_de_notas_total += nota_actual
+    contador_de_nota += 1
 
 promedio_de_notas_total = suma_de_notas_total / total_de_notas
 
