@@ -1,13 +1,15 @@
-print("===================")
-print(" CONVERTIDOR DE TEMPERATURA ")
-print("===================")
+"""Convert a temperature from Celsius to Fahrenheit and Kelvin."""
 
-celsius = float(input(" Ingrese la temperatura en Celsius "))
+print("======================")
+print("TEMPERATURE CONVERTER")
+print("======================")
 
-fahrenheit = (celsius * 9/5) + 32
+celsius = float(input("Enter the temperature in Celsius: "))
+
+fahrenheit = (celsius * 9 / 5) + 32
 kelvin = celsius + 273.15
 
-print("\nRESULTADOS")
-print("Celsius:", celsius, "°C")
-print("Fahrenheit:", fahrenheit, "°F")
-print("Kelvin:", kelvin, "K")
+print("\nRESULTS")
+print(f"Celsius: {celsius:.2f} °C")
+print(f"Fahrenheit: {fahrenheit:.2f} °F")
+print(f"Kelvin: {kelvin:.2f} K")

@@ -1,14 +1,16 @@
+"""Calculate the final price of a product after applying a discount."""
+
 print("======================")
-print("CALCULADORA DE DESCUENTO")
+print("DISCOUNT CALCULATOR")
 print("======================")
 
-precio = float(input("Ingrese el precio del producto: "))
+price = float(input("Enter the product price: "))
 
-if precio < 100:
-    descuento = precio * 0.02
+if price < 100:
+    discount = price * 0.02
 else:
-    descuento = precio * 0.10
+    discount = price * 0.10
 
-precio_final = precio - descuento
+final_price = price - discount
 
-print("El precio final es:", precio_final)
+print(f"The final price is: ${final_price:.2f}")

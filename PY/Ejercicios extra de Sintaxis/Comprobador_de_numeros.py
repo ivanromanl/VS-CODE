@@ -1,14 +1,16 @@
+"""Check whether a number or the total sum equals 30."""
+
 print("======================")
-print(" COMPOBADOR DE NUMEROS")
+print("NUMBER CHECKER")
 print("======================")
 
-numero_1 = int(input("Ingrese el primer numero: "))
-numero_2 = int(input("Ingrese el segundo numero: "))
-numero_3 = int(input("Ingrese el tercer numero: "))
+number_1 = int(input("Enter the first number: "))
+number_2 = int(input("Enter the second number: "))
+number_3 = int(input("Enter the third number: "))
 
-suma = numero_1 + numero_2 + numero_3
+total_sum = number_1 + number_2 + number_3
 
-if numero_1 == 30 or numero_2 == 30 or numero_3 == 30 or suma == 30:
-    print("Correcto")
+if number_1 == 30 or number_2 == 30 or number_3 == 30 or total_sum == 30:
+    print("Correct")
 else:
-    print("Incorrecto")
+    print("Incorrect")

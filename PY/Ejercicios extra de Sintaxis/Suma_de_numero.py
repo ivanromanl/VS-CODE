@@ -1,12 +1,14 @@
-print("===================")
-print(" SUMA  DE  NUMERO  ")
-print("===================")
+"""Calculate the sum of all integers from 1 to a given number."""
 
-numero = int(input("Ingrese un numero"))
+print("======================")
+print("NUMBER SUM")
+print("======================")
 
-suma = 0
+number = int(input("Enter a number: "))
 
-for contador in range(1, numero +1):
-    suma = suma + contador
+total_sum = 0
 
-print("El resultado de la suma es:", suma)
+for counter in range(1, number + 1):
+    total_sum = total_sum + counter
+
+print(f"The sum is: {total_sum}")
