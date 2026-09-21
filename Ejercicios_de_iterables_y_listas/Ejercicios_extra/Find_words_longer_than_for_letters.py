@@ -7,7 +7,7 @@ for i in range(5):
 long_words = []
 
 for word in words:
-    if len(words) > 4:
+    if len(word) > 4:
         long_words.append(word)
 
 print(f"New list: {long_words}")
