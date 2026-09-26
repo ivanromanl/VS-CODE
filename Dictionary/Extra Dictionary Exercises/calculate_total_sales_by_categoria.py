@@ -1,3 +1,5 @@
+"""Calculate total sales by category."""
+
 products = [
     {"name": "Monitor", "category": "Electronics", "price": 200},
     {"name": "Keyboard", "category": "Electronics", "price": 50},
